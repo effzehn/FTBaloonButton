@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31A2E91B197D25420090CE0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E91A197D25420090CE0C /* main.m */; };
+		31A2E91E197D25420090CE0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E91D197D25420090CE0C /* AppDelegate.m */; };
+		31A2E921197D25420090CE0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E920197D25420090CE0C /* ViewController.m */; };
+		31A2E924197D25420090CE0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A2E922197D25420090CE0C /* Main.storyboard */; };
+		31A2E926197D25420090CE0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A2E925197D25420090CE0C /* Images.xcassets */; };
+		31A2E932197D25420090CE0C /* FTBaloonButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E931197D25420090CE0C /* FTBaloonButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31A2E92C197D25420090CE0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A2E90D197D25420090CE0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31A2E914197D25420090CE0C;
+			remoteInfo = FTBaloonButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31A2E915197D25420090CE0C /* FTBaloonButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTBaloonButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A2E919197D25420090CE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A2E91A197D25420090CE0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31A2E91C197D25420090CE0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31A2E91D197D25420090CE0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31A2E91F197D25420090CE0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31A2E920197D25420090CE0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31A2E923197D25420090CE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31A2E925197D25420090CE0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		31A2E92B197D25420090CE0C /* FTBaloonButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTBaloonButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A2E930197D25420090CE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A2E931197D25420090CE0C /* FTBaloonButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBaloonButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31A2E912197D25420090CE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A2E928197D25420090CE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31A2E90C197D25420090CE0C = {
+			isa = PBXGroup;
+			children = (
+				31A2E917197D25420090CE0C /* FTBaloonButton */,
+				31A2E92E197D25420090CE0C /* FTBaloonButtonTests */,
+				31A2E916197D25420090CE0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31A2E916197D25420090CE0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31A2E915197D25420090CE0C /* FTBaloonButton.app */,
+				31A2E92B197D25420090CE0C /* FTBaloonButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31A2E917197D25420090CE0C /* FTBaloonButton */ = {
+			isa = PBXGroup;
+			children = (
+				31A2E91C197D25420090CE0C /* AppDelegate.h */,
+				31A2E91D197D25420090CE0C /* AppDelegate.m */,
+				31A2E91F197D25420090CE0C /* ViewController.h */,
+				31A2E920197D25420090CE0C /* ViewController.m */,
+				31A2E922197D25420090CE0C /* Main.storyboard */,
+				31A2E925197D25420090CE0C /* Images.xcassets */,
+				31A2E918197D25420090CE0C /* Supporting Files */,
+			);
+			path = FTBaloonButton;
+			sourceTree = "<group>";
+		};
+		31A2E918197D25420090CE0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31A2E919197D25420090CE0C /* Info.plist */,
+				31A2E91A197D25420090CE0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31A2E92E197D25420090CE0C /* FTBaloonButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				31A2E931197D25420090CE0C /* FTBaloonButtonTests.m */,
+				31A2E92F197D25420090CE0C /* Supporting Files */,
+			);
+			path = FTBaloonButtonTests;
+			sourceTree = "<group>";
+		};
+		31A2E92F197D25420090CE0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31A2E930197D25420090CE0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31A2E914197D25420090CE0C /* FTBaloonButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31A2E935197D25420090CE0C /* Build configuration list for PBXNativeTarget "FTBaloonButton" */;
+			buildPhases = (
+				31A2E911197D25420090CE0C /* Sources */,
+				31A2E912197D25420090CE0C /* Frameworks */,
+				31A2E913197D25420090CE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTBaloonButton;
+			productName = FTBaloonButton;
+			productReference = 31A2E915197D25420090CE0C /* FTBaloonButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31A2E92A197D25420090CE0C /* FTBaloonButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31A2E938197D25420090CE0C /* Build configuration list for PBXNativeTarget "FTBaloonButtonTests" */;
+			buildPhases = (
+				31A2E927197D25420090CE0C /* Sources */,
+				31A2E928197D25420090CE0C /* Frameworks */,
+				31A2E929197D25420090CE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31A2E92D197D25420090CE0C /* PBXTargetDependency */,
+			);
+			name = FTBaloonButtonTests;
+			productName = FTBaloonButtonTests;
+			productReference = 31A2E92B197D25420090CE0C /* FTBaloonButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31A2E90D197D25420090CE0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Andre Hoffmann";
+				TargetAttributes = {
+					31A2E914197D25420090CE0C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					31A2E92A197D25420090CE0C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 31A2E914197D25420090CE0C;
+					};
+				};
+			};
+			buildConfigurationList = 31A2E910197D25420090CE0C /* Build configuration list for PBXProject "FTBaloonButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31A2E90C197D25420090CE0C;
+			productRefGroup = 31A2E916197D25420090CE0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31A2E914197D25420090CE0C /* FTBaloonButton */,
+				31A2E92A197D25420090CE0C /* FTBaloonButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31A2E913197D25420090CE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A2E924197D25420090CE0C /* Main.storyboard in Resources */,
+				31A2E926197D25420090CE0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A2E929197D25420090CE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31A2E911197D25420090CE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A2E921197D25420090CE0C /* ViewController.m in Sources */,
+				31A2E91E197D25420090CE0C /* AppDelegate.m in Sources */,
+				31A2E91B197D25420090CE0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A2E927197D25420090CE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A2E932197D25420090CE0C /* FTBaloonButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31A2E92D197D25420090CE0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31A2E914197D25420090CE0C /* FTBaloonButton */;
+			targetProxy = 31A2E92C197D25420090CE0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31A2E922197D25420090CE0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31A2E923197D25420090CE0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31A2E933197D25420090CE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31A2E934197D25420090CE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31A2E936197D25420090CE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FTBaloonButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31A2E937197D25420090CE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FTBaloonButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31A2E939197D25420090CE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTBaloonButton.app/FTBaloonButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FTBaloonButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		31A2E93A197D25420090CE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTBaloonButton.app/FTBaloonButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FTBaloonButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31A2E910197D25420090CE0C /* Build configuration list for PBXProject "FTBaloonButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31A2E933197D25420090CE0C /* Debug */,
+				31A2E934197D25420090CE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31A2E935197D25420090CE0C /* Build configuration list for PBXNativeTarget "FTBaloonButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31A2E936197D25420090CE0C /* Debug */,
+				31A2E937197D25420090CE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31A2E938197D25420090CE0C /* Build configuration list for PBXNativeTarget "FTBaloonButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31A2E939197D25420090CE0C /* Debug */,
+				31A2E93A197D25420090CE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31A2E90D197D25420090CE0C /* Project object */;
+}
