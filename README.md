@@ -8,7 +8,7 @@ Parallel to that motion FTBiMarquee will linearly describe the current state of 
 Both Baloon and BiMarquee can be used independently although no direct interaction with BiMarquee is implemented.
 
 _Demo_
-[Demo of BalloonButton and BiMarquee]: http:/www.effzehn.de/imagehost/baloondemo.gif
+![Demo of BalloonButton and BiMarquee]: http:/www.effzehn.de/imagehost/baloondemo.gif
 
 _Usage_
 
