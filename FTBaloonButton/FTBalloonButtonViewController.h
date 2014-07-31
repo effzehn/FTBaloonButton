@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FTBalloonButtonViewController.h
 //  FTBaloonButton
 //
 //  Created by Andre Hoffmann on 21.07.14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FTBalloonButtonViewController : UIViewController
 
 @end
-
