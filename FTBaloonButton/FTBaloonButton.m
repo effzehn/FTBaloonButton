@@ -1,23 +1,24 @@
 //
-//  WLBaloonButton.m
+//  FTBaloonButton.m
 //  BalloonButtonTest
 //
 //  Created by Andre Hoffmann on 01.08.13.
-//  Copyright (c) 2013 xx-well.com. All rights reserved.
+//  Copyright (c) 2013 Andre Hoffmann. All rights reserved.
 //
 
 
-#import "WLBaloonButton.h"
+#import "FTBaloonButton.h"
 
-NSString *WLBaloonIntensityHasChangedNotification = @"WLBaloonIntensityHasChangedNotification";
-NSString *kWLBaloonIntensity = @"kWLBaloonIntensity";
+NSString *FTBaloonIntensityHasChangedNotification = @"FTBaloonIntensityHasChangedNotification";
+NSString *kFTBaloonIntensity = @"kFTBaloonIntensity";
 
 static const int MAX_INTENSITY = 100;
 static const int MIN_INTENSITY = 1;
 
-@interface WLBaloonButton () {
+@interface FTBaloonButton () {
 	CGFloat _saturation;
 	CGFloat _brightness;
+    CGFloat _hue;
 	
 	CGFloat _radius;
 	
@@ -28,11 +29,15 @@ static const int MIN_INTENSITY = 1;
 @end
 
 
-@implementation WLBaloonButton
+@implementation FTBaloonButton
 
 - (void)awakeFromNib
 {
 	self.intensity = 1;
+    
+    self.color = self.tintColor;
+    
+    [self.color getHue:&(_hue) saturation:NULL brightness:NULL alpha:NULL];
 	
 	UILongPressGestureRecognizer *longPressGestureRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPress:)];
 	[longPressGestureRecognizer setNumberOfTouchesRequired:1];
@@ -48,7 +53,7 @@ static const int MIN_INTENSITY = 1;
 	CGContextRef ctx = UIGraphicsGetCurrentContext();
 	CGContextBeginPath(ctx);
 	CGContextAddArc(ctx, self.frame.size.width / 2, self.frame.size.height / 2, _radius, 0, 2 * M_PI, 0);
-	CGContextSetFillColorWithColor(ctx, [[UIColor colorWithHue:1.0 saturation:_saturation brightness:0.9 alpha:1.0] CGColor]);
+	CGContextSetFillColorWithColor(ctx, [[UIColor colorWithHue:_hue saturation:_saturation brightness:0.9 alpha:1.0] CGColor]);
 	CGContextClosePath(ctx);
 	CGContextFillPath(ctx);
 }
@@ -71,6 +76,13 @@ static const int MIN_INTENSITY = 1;
 	NSLog(@"%f", _radius);
 	
 	[self setNeedsDisplay];
+}
+
+- (void)setColor:(UIColor *)color
+{
+    if (color) {
+        _color = color;
+    }
 }
 
 - (void)handleLongPress:(UILongPressGestureRecognizer *)gesture
@@ -98,9 +110,9 @@ static const int MIN_INTENSITY = 1;
 {
 	self.intensity += 1;
 	
-	[[NSNotificationCenter defaultCenter] postNotificationName:WLBaloonIntensityHasChangedNotification
+	[[NSNotificationCenter defaultCenter] postNotificationName:FTBaloonIntensityHasChangedNotification
 														object:nil
-													  userInfo:@{kWLBaloonIntensity:[NSNumber numberWithInt:self.intensity]}];
+													  userInfo:@{kFTBaloonIntensity:[NSNumber numberWithInt:self.intensity]}];
 }
 
 - (void)decrementCounter
@@ -110,9 +122,9 @@ static const int MIN_INTENSITY = 1;
 		[_shrinkTimer invalidate];
 	}
 	
-	[[NSNotificationCenter defaultCenter] postNotificationName:WLBaloonIntensityHasChangedNotification
+	[[NSNotificationCenter defaultCenter] postNotificationName:FTBaloonIntensityHasChangedNotification
 														object:nil
-													  userInfo:@{kWLBaloonIntensity:[NSNumber numberWithInt:self.intensity]}];
+													  userInfo:@{kFTBaloonIntensity:[NSNumber numberWithInt:self.intensity]}];
 }
 
 @end

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FTBaloonButton.h"
+#import "FTBiMarque.h"
 
 @interface FTBalloonButtonViewController : UIViewController
+
+@property IBOutlet FTBaloonButton *balloonButton;
+@property IBOutlet FTBiMarque *biMarque;
 
 @end

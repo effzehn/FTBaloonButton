@@ -1,19 +1,24 @@
 //
-//  WLBaloonButton.h
+//  FTBaloonButton
 //  BalloonButtonTest
 //
 //  Created by Andre Hoffmann on 01.08.13.
-//  Copyright (c) 2013 xx-well.com. All rights reserved.
+//  Copyright (c) 2013 Andre Hoffmann. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-extern NSString *WLBaloonIntensityHasChangedNotification;
-extern NSString *kWLBaloonIntensity;
+extern NSString *FTBaloonIntensityHasChangedNotification;
+extern NSString *kFTBaloonIntensity;
 
-@interface WLBaloonButton : UIView <UIGestureRecognizerDelegate>
+@interface FTBaloonButton : UIView <UIGestureRecognizerDelegate>
 
 @property (nonatomic, assign) NSUInteger intensity;
+
+/**
+ Defaults to tintColor of View
+ */
+@property (nonatomic, strong) UIColor *color;
 
 
 @end

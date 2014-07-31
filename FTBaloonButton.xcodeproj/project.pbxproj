@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		31A2E91B197D25420090CE0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E91A197D25420090CE0C /* main.m */; };
 		31A2E91E197D25420090CE0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E91D197D25420090CE0C /* AppDelegate.m */; };
-		31A2E921197D25420090CE0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E920197D25420090CE0C /* ViewController.m */; };
 		31A2E924197D25420090CE0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A2E922197D25420090CE0C /* Main.storyboard */; };
 		31A2E926197D25420090CE0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A2E925197D25420090CE0C /* Images.xcassets */; };
 		31A2E932197D25420090CE0C /* FTBaloonButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E931197D25420090CE0C /* FTBaloonButtonTests.m */; };
+		31A2E93F197D25540090CE0C /* FTBaloonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E93C197D25540090CE0C /* FTBaloonButton.m */; };
+		31A2E940197D25540090CE0C /* FTBiMarque.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E93E197D25540090CE0C /* FTBiMarque.m */; };
+		31A2E943197D27D50090CE0C /* FTBalloonButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2E942197D27D50090CE0C /* FTBalloonButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +33,17 @@
 		31A2E91A197D25420090CE0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31A2E91C197D25420090CE0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31A2E91D197D25420090CE0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		31A2E91F197D25420090CE0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		31A2E920197D25420090CE0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		31A2E923197D25420090CE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31A2E925197D25420090CE0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		31A2E92B197D25420090CE0C /* FTBaloonButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTBaloonButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A2E930197D25420090CE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31A2E931197D25420090CE0C /* FTBaloonButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBaloonButtonTests.m; sourceTree = "<group>"; };
+		31A2E93B197D25540090CE0C /* FTBaloonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBaloonButton.h; sourceTree = "<group>"; };
+		31A2E93C197D25540090CE0C /* FTBaloonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBaloonButton.m; sourceTree = "<group>"; };
+		31A2E93D197D25540090CE0C /* FTBiMarque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBiMarque.h; sourceTree = "<group>"; };
+		31A2E93E197D25540090CE0C /* FTBiMarque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBiMarque.m; sourceTree = "<group>"; };
+		31A2E941197D27D50090CE0C /* FTBalloonButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBalloonButtonViewController.h; sourceTree = "<group>"; };
+		31A2E942197D27D50090CE0C /* FTBalloonButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBalloonButtonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +87,12 @@
 			children = (
 				31A2E91C197D25420090CE0C /* AppDelegate.h */,
 				31A2E91D197D25420090CE0C /* AppDelegate.m */,
-				31A2E91F197D25420090CE0C /* ViewController.h */,
-				31A2E920197D25420090CE0C /* ViewController.m */,
+				31A2E93B197D25540090CE0C /* FTBaloonButton.h */,
+				31A2E93C197D25540090CE0C /* FTBaloonButton.m */,
+				31A2E93D197D25540090CE0C /* FTBiMarque.h */,
+				31A2E93E197D25540090CE0C /* FTBiMarque.m */,
+				31A2E941197D27D50090CE0C /* FTBalloonButtonViewController.h */,
+				31A2E942197D27D50090CE0C /* FTBalloonButtonViewController.m */,
 				31A2E922197D25420090CE0C /* Main.storyboard */,
 				31A2E925197D25420090CE0C /* Images.xcassets */,
 				31A2E918197D25420090CE0C /* Supporting Files */,
@@ -215,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A2E921197D25420090CE0C /* ViewController.m in Sources */,
+				31A2E940197D25540090CE0C /* FTBiMarque.m in Sources */,
 				31A2E91E197D25420090CE0C /* AppDelegate.m in Sources */,
 				31A2E91B197D25420090CE0C /* main.m in Sources */,
+				31A2E943197D27D50090CE0C /* FTBalloonButtonViewController.m in Sources */,
+				31A2E93F197D25540090CE0C /* FTBaloonButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
