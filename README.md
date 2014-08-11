@@ -1,7 +1,7 @@
 ## FTBalloonButton
 
 ### About
-FTBaloonButton is an interface element which follows the principle of fast beginning and strenuous ending. Tapping the circle will fill up the baloon very fast, while it will take longer to fill the bigger it gets.
+FTBaloonButton is an interface element which diplays a logarithmic increase for the display of quantitative information. Tapping the circle will fill up the baloon very fast, while it will take longer to fill the bigger it gets.
 Parallel to that motion FTBiMarquee will linearly describe the current state of the element in words.
 
 Both Baloon and BiMarquee can be used independently although no direct interaction with BiMarquee is implemented.
